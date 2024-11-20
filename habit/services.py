@@ -3,6 +3,7 @@ from config import settings
 
 
 def send_telegram_message(chat_id, message):
+    """Отправить сообщение в телегу через своего бота"""
     params = {
         'text': message,
         'chat_id': chat_id
